@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Sreeramvin</title>
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Sreeram</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="#" class="btn-resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section>
+            <h2>My Blog</h2>
+            <p>Thoughts, tutorials, and insights.</p>
+
+            <div class="blog-grid" style="display: grid; gap: 2rem; margin-top: 2rem;">
+
+                <!-- Blog Post 1 -->
+                <a href="posts/welcome.html" class="blog-card"
+                    style="text-decoration: none; color: inherit; background: rgba(22, 27, 34, 0.7); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-color); transition: transform 0.2s;">
+                    <h3 style="color: var(--accent-color); margin-bottom: 0.5rem;">Welcome to my new portfolio</h3>
+                    <div style="font-size: 0.9rem; color: #8b949e; margin-bottom: 1rem;">Jan 1, 2026</div>
+                    <p>This is the very first post on my new portfolio website...</p>
+                </a>
+
+                <!-- Blog Post 2 -->
+                <a href="posts/tech-stack.html" class="blog-card"
+                    style="text-decoration: none; color: inherit; background: rgba(22, 27, 34, 0.7); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-color); transition: transform 0.2s;">
+                    <h3 style="color: var(--accent-color); margin-bottom: 0.5rem;">My Preferred Tech Stack</h3>
+                    <div style="font-size: 0.9rem; color: #8b949e; margin-bottom: 1rem;">Jan 2, 2026</div>
+                    <p>When building web applications, I prefer using tools that prioritize performance...</p>
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sreeramvin. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

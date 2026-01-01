@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded/Circular background, No Stroke -->
+  <rect width="64" height="64" rx="32" fill="#000000"/>
+  
+  <!-- High Contrast Theme -->
+  <!-- V shifted down, bright vibrant blue -->
+  <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" fill="#3b82f6" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="42">V</text>
+  
+  <!-- S centered/up, very light cyan/white for max contrast -->
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" fill="#e0f2fe" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="42">S</text>
+</svg>
