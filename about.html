@@ -7,7 +7,81 @@
     <title>About Me | Sreeramvin</title>
     <link rel="icon" type="image/svg+xml" href="logo.svg">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .about-wrapper {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem 5rem;
+        }
+
+        .about-wrapper h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+        }
+
+        .about-wrapper h1 span {
+            background: linear-gradient(90deg, #58a6ff, #a78bfa);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .about-tagline {
+            color: #8b949e;
+            font-size: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .about-section {
+            margin-bottom: 2.8rem;
+        }
+
+        .about-section h2 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: #58a6ff;
+            margin-bottom: 0.9rem;
+            font-weight: 600;
+        }
+
+        .about-section p {
+            color: #c9d1d9;
+            line-height: 1.85;
+            font-size: 1rem;
+        }
+
+        .about-section p + p {
+            margin-top: 1rem;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid #21262d;
+            margin: 2.5rem 0;
+        }
+
+        .interests-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin-top: 0.8rem;
+        }
+
+        .tag {
+            background: rgba(88, 166, 255, 0.08);
+            border: 1px solid rgba(88, 166, 255, 0.2);
+            color: #58a6ff;
+            padding: 0.35rem 0.85rem;
+            border-radius: 99px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+    </style>
 </head>
 
 <body>
@@ -17,22 +91,73 @@
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html" class="active">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="#" class="btn-resume">Resume</a></li>
+            <!-- <li><a href="blog.html">Blog</a></li> -->
+            <li><a href="https://drive.google.com/file/d/1PbVQwrjLKZFK2LJxB8vwGBiGTL-mNsFD/view?usp=sharing" class="btn-resume" target="_blank" rel="noopener noreferrer">Resume</a></li>
         </ul>
     </nav>
 
-    <main class="container">
-        <section>
-            <h2>About Me</h2>
-            <p>This is where I will share my background, skills, and journey.</p>
-            <br>
-            <p style="color: #8b949e;">(More content coming soon...)</p>
-        </section>
+    <main>
+        <div class="about-wrapper">
+            <h1>Hey, I'm <span>Sreeram</span></h1>
+            <p class="about-tagline">25 · Tech background · Business at heart</p>
+
+            <div class="about-section">
+                <h2>The Story So Far</h2>
+                <p>
+                    I'm 25 and somewhere in that exciting, slightly chaotic middle ground — old enough to know what I want, young enough to still be figuring out how to get there. I started out in tech, writing code, building products, learning how systems work from the ground up. And while I genuinely enjoyed it, I kept noticing that what really lit me up wasn't just the engineering — it was the <em>why</em> behind it. The business problem. The user. The strategy.
+                </p>
+                <p>
+                    Turns out, I've had a quiet obsession with business for as long as I can remember — how companies grow, why products succeed or fail, what makes a great pitch, how decisions get made at the top. I just happened to take the longer route and come at it through code. Now I'm intentionally steering toward product and client-facing roles, where I can use my technical foundation as a superpower rather than a job title.
+                </p>
+            </div>
+
+            <hr class="divider">
+
+            <div class="about-section">
+                <h2>The Pivot</h2>
+                <p>
+                    Moving from a coding role to product or business isn't a departure — it's an evolution. I want to be in rooms where strategy is made, where client relationships are built, where a deep understanding of technology lets you ask better questions than everyone else. My goal is to tap into the business-minded side of me that's always been there, armed with the rare advantage of actually knowing how the product is built.
+                </p>
+                <p>
+                    Whether that's product management, solutions consulting, or client strategy in a tech-forward company — I'm actively navigating that path, one conversation and one opportunity at a time.
+                </p>
+            </div>
+
+            <hr class="divider">
+
+            <div class="about-section">
+                <h2>Off the Clock</h2>
+                <p>
+                    Football is religion. I live and breathe the game — the tactics, the drama, the last-minute winners, the transfer window chaos. It's one of the few things that can make me genuinely emotional at 11pm on a Tuesday.
+                </p>
+                <p>
+                    Formula 1 is the other obsession. I love it for all the reasons most people find it overwhelming — the engineering, the team strategy, the politics behind the pit wall. Every race weekend feels like a ten-episode thriller compressed into two hours.
+                </p>
+                <p>
+                    When I'm not watching sport, I'm usually down a rabbit hole — tech news, startup stories, market shifts, what's happening in the world. I genuinely enjoy staying plugged in, forming opinions, and talking about ideas. Curiosity is probably my default state.
+                </p>
+            </div>
+
+            <hr class="divider">
+
+            <div class="about-section">
+                <h2>Interests & Curiosities</h2>
+                <div class="interests-grid">
+                    <span class="tag">⚽ Football</span>
+                    <span class="tag">🏎️ Formula 1</span>
+                    <span class="tag">📱 Tech News</span>
+                    <span class="tag">📈 Startups & Business</span>
+                    <span class="tag">🧠 Product Strategy</span>
+                    <span class="tag">🌍 Current Affairs</span>
+                    <span class="tag">💬 Client Relations</span>
+                    <span class="tag">🔧 How Things Work</span>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 Sreeramvin. All rights reserved.</p>
+        <p>&copy; 2026 Sreeram. All rights reserved.</p>
     </footer>
 
     <script type="module" src="main.js"></script>
